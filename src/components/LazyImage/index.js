@@ -31,7 +31,7 @@ export default function LazyImage({
 
   return (
     <Small
-      source={smallSource}
+      source={{ uri: smallSource }}
       ratio={aspectRatio}
       resizeMode='contain'
       blurRadius={1.5}
